@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(93, 212, 212);
+    
     font-family: Robot, san-serif;
+    color: #E5E5E5;
 }
 
 span{
@@ -20,5 +21,13 @@ button:hover,
 button:focus{
     color: white;
     background-color: blue;
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.header-block{
+    background-color: #FFFFFF;
 }
 
