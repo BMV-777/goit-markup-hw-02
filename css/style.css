@@ -1,33 +1,167 @@
+:root{
+    --white: #FFFFFF;
+    --black-grey: #2F303A;
+    --grey: #757575;
+    --black: #212121;
+}
+
 body{
     
-    font-family: Robot, san-serif;
-    color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
 }
 
 span{
     color:blue;   
 }
 
+.list {
+    list-style: none;
+}
+.link{
+ text-decoration: none;
+}
+/* --------HEADER---------- */
+.header-studio{
+  font-size: 26px;
+  line-height: 1.19;
+  text-align:left; 
+  vertical-align: Top; 
+  letter-spacing: 3%;
+}
+.header-studio:hover{
+
+}
+
+.header-mail{
+   font-size: 14px;
+  line-height: 1.33;
+  text-align:left; 
+  vertical-align: Top; 
+  letter-spacing: 2%;
+  color: #757575;
+}
+
+.header-mail:hover{
+
+}
+
+.header-tel{
+  font-size: 14px;
+  line-height: 1.33;
+  text-align:left; 
+  vertical-align: Top; 
+  letter-spacing: 2%;
+  color: #757575; 
+}
+
+.header-tel:hover{
+
+}
+
+.header-shulok{
+    font-size: 14px; 
+    line-height: 1.33;  
+    text-align:left; 
+    vertical-align: Top;
+    letter-spacing: 2%;
+    color: #212121;
+}
+
+.header-shulok:hover{
+
+}
+
 .header{
-    width: 145px;
-    height: 31px;
+    width: 1600px;
+    /* height: 80px; */
+    background-color:aqua;
 }
 
-a{
-    text-decoration: none; 
-}
+/* ----HERO ------*/
 
-button:hover,
-button:focus{
+.btn:hover,
+.btn:focus{
     color: white;
     background-color: blue;
+    cursor: pointer;
+}
+
+.title-foto{
+  font-family:'Roboto', sans-serif;
+  font-style: 700;
+  font-size: 18px;
+  line-height: 2;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 6%;
+  color: #212121;
+}
+
+.title-foto:hover{
+
+}
+
+.title-text{
+  font-family:'Roboto', sans-serif;
+  font-style: 'Regular';
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 3%;
+  color: #757575;
+}
+
+.title-text:hover{
+
+}
+
+/* -----------FOOTER-------------- */
+
+.footer-web{
+  font-size: 26px;
+  line-height: 1.19;
+  text-align:left; 
+  vertical-align: Top; 
+  letter-spacing: 3%;
+}
+
+.footer-adress-karta{
+  font-size: 14px;
+  line-height: 1.71;
+  text-align:left; 
+  vertical-align: Top; 
+  letter-spacing: 3%;
+  color: #FFFFFF;
+}
+
+.footer-mail{
+  font-family:'Roboto', sans-serif;
+  font-style: 'Regular';
+  font-size: 14px;
+  line-height: 1.71;
+  text-align:left; 
+  vertical-align: Top; 
+  letter-spacing: 3%;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel{
+  font-family:'Roboto', sans-serif;
+  font-style: 'Regular';
+  font-size: 14px;
+  line-height: 1.71;
+  text-align:left; 
+  vertical-align: Top; 
+  letter-spacing: 3%;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer{
-    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+    background-color: #8f92af;
 }
 
-.header-block{
-    background-color: #FFFFFF;
-}
 
