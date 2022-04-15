@@ -10,7 +10,7 @@ html {
 
 
 body {
-  background-color: aqua;
+  background-color: var(--grey);
   font-family: 'Roboto', sans-serif;
 
 }
@@ -183,9 +183,6 @@ letter-spacing: 0.03em; */
   padding-right: 15px;
   margin: 0 auto;
   width: 1200px;
-
-  /* height: 80px; */
-  */
 }
 
 .header-text {
@@ -199,28 +196,31 @@ letter-spacing: 0.03em; */
 /* --------//Hero---------- */
 .hero-usluga {
   background-color: #2F303A;
-  width: 1200px;
-  height: 600px;
+  /* width: 1200px;
+  height: 600px; */
   /* display: flex;
     justify-content: center; */
   outline: 2px solid tomato;
   margin: 0 auto;
+  text-align: center;
 }
 
 .hero-efectivnosti {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  text-align: center;
+  /* text-align: center; */
   font-size: 44px;
   color: #FFFFFF;
   line-height: 1.36;
   letter-spacing: 6%;
   text-transform: uppercase;
-  position: absolute;
-  width: 696px;
+  margin-bottom: 30px;
+  padding: 0;
+  /* position: absolute; */
+  /* width: 696px;
   height: 150px;
   left: 452px;
-  top: 280px;
+  top: 280px; */
   /* margin: 44px;  */
 }
 
@@ -234,8 +234,9 @@ letter-spacing: 0.03em; */
   min-width: 200px;
   left: 700px;
   top: 430px;
-  position: absolute;
-  /* padding-top: 44px; */
+  /* position: absolute; */
+
+
 
 }
 
@@ -255,7 +256,9 @@ letter-spacing: 0.03em; */
 } */
 
 .hero-section {
-  display: flex;
+  padding: 0;
+  margin: 0;
+  /* display: flex; */
   /* justify-content: space-around; */
   /* width: 270px;
   height: 75px; */
@@ -264,11 +267,11 @@ letter-spacing: 0.03em; */
 
 
 .hero-tex-one {
-  position: absolute;
+  /* position: absolute;
   width: 270px;
   height: 16px;
   left: 215px;
-  top: 774px;
+  top: 774px; */
 
   font-family: 'Roboto';
   font-style: normal;
@@ -277,17 +280,16 @@ letter-spacing: 0.03em; */
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #212121;
 
 }
 
 .hero-one {
-  position: absolute;
+  /* position: absolute;
   width: 270px;
   height: 75px;
   left: 215px;
-  top: 800px;
+  top: 800px; */
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -298,11 +300,11 @@ letter-spacing: 0.03em; */
 }
 
 .hero-text-two {
-  position: absolute;
+  /* position: absolute;
   width: 270px;
   height: 16px;
   left: 515px;
-  top: 774px;
+  top: 774px; */
 
   font-family: 'Roboto';
   font-style: normal;
@@ -315,11 +317,11 @@ letter-spacing: 0.03em; */
 }
 
 .hero-two {
-  position: absolute;
+  /* position: absolute;
   width: 270px;
   height: 75px;
   left: 515px;
-  top: 800px;
+  top: 800px; */
 
   font-family: 'Roboto';
   font-style: normal;
@@ -331,11 +333,11 @@ letter-spacing: 0.03em; */
 }
 
 .hero-text-wri {
-  position: absolute;
+  /* position: absolute;
   width: 270px;
   height: 16px;
   left: 815px;
-  top: 774px;
+  top: 774px; */
 
   font-family: 'Roboto';
   font-style: normal;
@@ -350,11 +352,11 @@ letter-spacing: 0.03em; */
 }
 
 .hero-wri {
-  position: absolute;
+  /* position: absolute;
   width: 270px;
   height: 75px;
   left: 815px;
-  top: 800px;
+  top: 800px; */
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -364,12 +366,13 @@ letter-spacing: 0.03em; */
   color: #757575;
 }
 
+
 .hero-text-for {
-  position: absolute;
+  /* position: absolute;
   width: 270px;
   height: 16px;
   left: 1115px;
-  top: 774px;
+  top: 774px; */
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -406,6 +409,12 @@ letter-spacing: 0.03em; */
   vertical-align: top;
   letter-spacing: 3%;
   color: #212121;
+}
+
+.hero-logo {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
 }
 
 .comando-text {
